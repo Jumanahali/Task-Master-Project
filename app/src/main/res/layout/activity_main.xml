@@ -109,7 +109,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/poppins_semibold"
-                    android:text="Cleaning"
+                    android:text="Plumbing"
                     android:textColor="@color/lavender"
                     android:textSize="20sp" />
 
@@ -119,7 +119,7 @@
                     android:layout_height="70dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/c1" />
+                    android:src="@drawable/plumbing" />
 
             </RelativeLayout>
 
