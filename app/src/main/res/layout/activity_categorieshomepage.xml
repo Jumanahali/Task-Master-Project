@@ -21,18 +21,17 @@
         android:layout_marginBottom="16dp" />
 
     <SearchView
-        android:id="@+id/searchview"
+        android:id="@+id/search"
         android:layout_width="0dp"
-        android:queryHint="Search Here ..."
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:textColorHint="@color/black"
-        app:layout_constraintTop_toBottomOf="@id/title"
         android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/searchview_background"
+        android:queryHint="search here....."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
 
     <LinearLayout
         android:id="@+id/row1"
@@ -47,7 +46,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/searchview">
+        app:layout_constraintTop_toBottomOf="@id/search">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/category1"
