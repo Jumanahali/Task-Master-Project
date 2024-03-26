@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TaskMaster"
         tools:targetApi="31">
         <activity
+            android:name=".CleaningSub"
+            android:exported="false" />
+        <activity
             android:name=".searchnotfound"
             android:exported="false" />
         <activity
