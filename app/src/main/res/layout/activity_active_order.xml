@@ -73,7 +73,7 @@
                     android:layout_toEndOf="@+id/Subcategory1image"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="Washbasins"
-                    android:textColor="@color/lavender"
+                    android:textColor="@color/black"
                     android:textSize="18sp" />
 
                 <TextView
@@ -118,10 +118,11 @@
                     android:layout_marginStart="25dp"
                     android:layout_toEndOf="@+id/Subcategory1image"
                     android:fontFamily="@font/poppins_semibold"
-                    android:textColor="@color/lavender"
+                    android:textColor="@color/black"
                     android:textSize="14sp"
                     tools:layout_editor_absoluteX="79dp"
                     tools:layout_editor_absoluteY="376dp" />
+
 
                 <ImageView
                     android:id="@id/LocIcon"
@@ -144,7 +145,7 @@
                     android:layout_toEndOf="@+id/Subcategory1image"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="KSU"
-                    android:textColor="@color/lavender"
+                    android:textColor="@color/black"
                     android:textSize="15sp" />
 
                 <ImageView
@@ -167,7 +168,7 @@
                     android:layout_marginStart="45dp"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="Saad 0555555555"
-                    android:textColor="@color/lavender"
+                    android:textColor="@color/black"
                     android:textSize="15sp" />
 
                 <ImageView
@@ -191,7 +192,7 @@
                     android:layout_marginStart="300dp"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="150"
-                    android:textColor="@color/lavender"
+                    android:textColor="@color/black"
                     android:textSize="15sp" />
 
                 <TextView
@@ -218,13 +219,14 @@
                     android:inputType="text" />
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/CancleOreder"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="262dp"
                     android:layout_marginTop="4dp"
                     android:backgroundTint="#C8D22B2B"
-                    android:text="Delete"
+                    android:text="Cancel"
+                    android:textSize="15dp"
                     android:textColor="@color/black"
                     android:visibility="visible"
                     app:iconSize="10dp" />
@@ -275,7 +277,7 @@
                     android:layout_toEndOf="@+id/Subcategory2image"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="Deep cleaning"
-                    android:textColor="@color/lavender"
+                    android:textColor="@color/black"
                     android:textSize="18sp" />
 
                 <TextView
@@ -320,7 +322,7 @@
                     android:layout_marginStart="25dp"
                     android:layout_toEndOf="@+id/Subcategory2image"
                     android:fontFamily="@font/poppins_semibold"
-                    android:textColor="@color/lavender"
+                    android:textColor="@color/black"
                     android:textSize="14sp"
                     tools:layout_editor_absoluteX="79dp"
                     tools:layout_editor_absoluteY="376dp" />
@@ -346,7 +348,7 @@
                     android:layout_toEndOf="@+id/Subcategory2image"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="KSU"
-                    android:textColor="@color/lavender"
+                    android:textColor="@color/black"
                     android:textSize="15sp" />
 
                 <ImageView
@@ -369,7 +371,7 @@
                     android:layout_marginStart="45dp"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="Saad 0555555555"
-                    android:textColor="@color/lavender"
+                    android:textColor="@color/black"
                     android:textSize="15sp" />
 
                 <ImageView
@@ -393,7 +395,7 @@
                     android:layout_marginStart="300dp"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="300"
-                    android:textColor="@color/lavender"
+                    android:textColor="@color/black"
                     android:textSize="15sp" />
 
             </RelativeLayout>
