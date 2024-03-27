@@ -5,34 +5,35 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ActiveOrder">
+    tools:context=".searchOrderFound">
 
     <TextView
         android:id="@+id/titleOfpage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:layout_marginRight="50dp"
-        android:fontFamily="@font/poppins_semibold"
         android:text="Your Reservations:"
+        android:fontFamily="@font/poppins_semibold"
         android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="16dp" />
 
     <SearchView
         android:id="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/searchview_background"
+        android:queryHint="Washbasins"
         android:iconifiedByDefault="false"
-        android:queryBackground="@android:color/transparent"
-        android:queryHint="search here....."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleOfpage" />
+        app:layout_constraintTop_toBottomOf="@id/titleOfpage"
+        android:queryBackground="@android:color/transparent"/>
 
     <LinearLayout
         android:id="@+id/row1"
@@ -234,169 +235,6 @@
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/row2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="240dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/row1"
-        app:layout_constraintVertical_bias="@id/row1">
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/Subcategory2"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            app:cardCornerRadius="20dp"
-            app:cardElevation="20dp">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/Subcategory2Name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="6dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_toEndOf="@+id/Subcategory2image"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:text="Deep cleaning"
-                    android:textColor="@color/black"
-                    android:textSize="18sp" />
-
-                <TextView
-                    android:id="@+id/staus2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/Subcategory2Name"
-                    android:layout_marginStart="6dp"
-                    android:layout_toEndOf="@+id/Subcategory2image"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:text="Reject"
-                    android:textColor="@color/red"
-                    android:textSize="18sp" />
-
-                <ImageView
-                    android:id="@+id/Subcategory2image"
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/deepcleaning" />
-
-                <ImageView
-                    android:id="@id/timeicon2"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/staus2"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="40dp"
-                    android:layout_marginLeft="100dp"
-                    android:layout_marginEnd="224dp"
-                    android:layout_marginRight="70dp"
-                    android:src="@drawable/baseline_access_time_filled_24" />
-
-
-                <TextClock
-                    android:id="@+id/textClock2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/staus2"
-                    android:layout_marginStart="25dp"
-                    android:layout_toEndOf="@+id/Subcategory2image"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:textColor="@color/black"
-                    android:textSize="14sp"
-                    tools:layout_editor_absoluteX="79dp"
-                    tools:layout_editor_absoluteY="376dp" />
-
-                <ImageView
-                    android:id="@id/LocIcon2"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/staus2"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="40dp"
-                    android:layout_marginLeft="200dp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginRight="70dp"
-                    android:src="@drawable/baseline_add_location_alt_24" />
-
-                <TextView
-                    android:id="@+id/loc2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/staus2"
-                    android:layout_marginStart="192dp"
-                    android:layout_toEndOf="@+id/Subcategory2image"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:text="KSU"
-                    android:textColor="@color/black"
-                    android:textSize="15sp" />
-
-                <ImageView
-                    android:id="@id/workericon2"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/Subcategory2image"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="40dp"
-                    android:layout_marginLeft="100dp"
-                    android:layout_marginEnd="320dp"
-                    android:layout_marginRight="70dp"
-                    android:src="@drawable/baseline_contact_phone_24" />
-
-                <TextView
-                    android:id="@+id/WorkerInfo2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/Subcategory2image"
-                    android:layout_marginStart="45dp"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:text="Saad 0555555555"
-                    android:textColor="@color/black"
-                    android:textSize="15sp" />
-
-                <ImageView
-                    android:id="@id/amounticon2"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:layout_below="@+id/Subcategory2image"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginStart="45dp"
-                    android:layout_marginLeft="400dp"
-                    android:layout_marginEnd="60dp"
-                    android:layout_marginRight="70dp"
-                    android:src="@drawable/baseline_attach_money_24" />
-
-
-                <TextView
-                    android:id="@+id/amount2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/Subcategory2image"
-                    android:layout_marginStart="300dp"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:text="300"
-                    android:textColor="@color/black"
-                    android:textSize="15sp" />
-
-            </RelativeLayout>
-        </androidx.cardview.widget.CardView>
 
 
     </LinearLayout>

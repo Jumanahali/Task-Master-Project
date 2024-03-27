@@ -13,6 +13,12 @@
         android:theme="@style/Theme.TaskMaster"
         tools:targetApi="31">
         <activity
+            android:name=".SearchOrderNotfound"
+            android:exported="false" />
+        <activity
+            android:name=".searchOrderFound"
+            android:exported="false" />
+        <activity
             android:name=".ActiveOrder"
             android:exported="false" />
         <activity
