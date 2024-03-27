@@ -9,10 +9,10 @@
 
 
     <TextView
-        android:id="@+id/titlePlumbing"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Plumbing:"
+        android:text="Cleaning:"
         android:fontFamily="@font/poppins_semibold"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +35,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/titlePlumbing">
+        app:layout_constraintTop_toBottomOf="@id/title">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/Subcategory1"
@@ -58,8 +58,8 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/poppins_semibold"
-                    android:text="Washbasins"
-                    android:textColor="@color/yellow"
+                    android:text="Deep cleaning"
+                    android:textColor="@color/lavender"
                     android:textSize="20sp" />
 
                 <ImageView
@@ -68,7 +68,7 @@
                     android:layout_height="100dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/washbasins" />
+                    android:src="@drawable/deepcleaning" />
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -94,8 +94,8 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/poppins_semibold"
-                    android:text="Roof Insulation"
-                    android:textColor="@color/yellow"
+                    android:text="Shoe Wash"
+                    android:textColor="@color/lavender"
                     android:textSize="20sp" />
 
                 <ImageView
@@ -104,7 +104,7 @@
                     android:layout_height="100dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/roof" />
+                    android:src="@drawable/shoe" />
 
             </RelativeLayout>
 
@@ -150,8 +150,8 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/poppins_semibold"
-                    android:text="Water Filters"
-                    android:textColor="@color/yellow"
+                    android:text="Clothes Wash"
+                    android:textColor="@color/lavender"
                     android:textSize="20sp" />
 
                 <ImageView
@@ -160,7 +160,7 @@
                     android:layout_height="100dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/filter" />
+                    android:src="@drawable/clothes" />
 
 
             </RelativeLayout>
@@ -190,8 +190,8 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/poppins_semibold"
-                    android:text="Dynamo"
-                    android:textColor="@color/yellow"
+                    android:text="Carpet Wash"
+                    android:textColor="@color/lavender"
                     android:textSize="20sp" />
 
                 <ImageView
@@ -200,7 +200,7 @@
                     android:layout_height="100dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/dynamo" />
+                    android:src="@drawable/carpet" />
 
             </RelativeLayout>
 
