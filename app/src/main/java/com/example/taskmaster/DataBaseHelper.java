@@ -1,5 +1,4 @@
-package com.example.sprint1;
-
+package com.example.taskmaster;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;

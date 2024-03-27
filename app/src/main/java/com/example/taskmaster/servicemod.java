@@ -1,5 +1,4 @@
-package com.example.sprint1;
-
+package com.example.taskmaster;
 public class servicemod {
     private String categoryName;
     private int serviceID;
